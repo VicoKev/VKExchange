@@ -126,8 +126,8 @@ License: For each use you must have a valid license purchased only from above li
                                 <!--end::Link-->
                             </div>
                             <!--begin::Heading-->
-                            <input type="text" type="email" class="form-control bg-transparent mb-5"
-                                value="{{ $request->email }}" disabled />
+                            <input  type="email" name="email" class="form-control bg-transparent mb-5"
+                                value="{{ $request->email }}" />
                             <!--begin::Input group-->
                             <div class="fv-row mb-8" data-kt-password-meter="true">
                                 <!--begin::Wrapper-->
